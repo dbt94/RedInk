@@ -271,6 +271,15 @@ providers:
 
 ---
 
+## 🧩 Claude-Code Ecosystem — Automatic Installation
+
+This repo is part of the dbt94 / Bizzplug Claude-Code ecosystem. **Claude-Code skills,
+CLIs and the browser install automatically** via the central SessionStart hook
+`~/.claude/hooks/auto-install.sh` (from [`AgentsandSkills`](https://github.com/dbt94/AgentsandSkills))
+— the user never installs manually. This repo's own app dependencies (see *Deployment*)
+are separate. Rules: `AgentsandSkills/rules/GLOBAL-RULES.md` → "AUTOMATISCHE INSTALLATION";
+see also `CLAUDE.md`.
+
 ## 🤝 Contributing
 
 Issues and Pull Requests are welcome!
